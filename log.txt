@@ -1,0 +1,11 @@
+----2022-03-07--- 
+ imgflip response : 
+ {'success': True, 'data': {'url': 'https://i.imgflip.com/67sf8e.jpg', 'page_url': 'https://imgflip.com/i/67sf8e'}}facebook response : 
+ {'id': '108341671802090', 'post_id': '105686138734310_108341671802090'} 
+ --------
+----2022-03-07---- 
+imgflip response : 
+{'success': True, 'data': {'url': 'https://i.imgflip.com/67sffw.jpg', 'page_url': 'https://imgflip.com/i/67sffw'}}
+facebook response : 
+{'id': '108342348468689', 'post_id': '105686138734310_108342348468689'}
+ --------

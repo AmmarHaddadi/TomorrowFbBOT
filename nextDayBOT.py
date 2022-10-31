@@ -22,8 +22,8 @@ params = {
 }
 
 #       for the fb post
-token = 'EAADquc9sjOkBAPmNNJhmJVHxdCjDZCsezBFZB20823TWgPb89aP8MaEiyZB0ZCoHdp3TaS4c1IiTJ9T9ZAt52l4PrkrCMugDhnACrLqnwBknfinwuAITfrtSd8vZCAYSXtfGrwaZC5Ly7Rge1y0cBMAzFv5Q0kFuO0QCZBDEhCBS95nZACVHeag0ZC'
-pageID = '105686138734310'
+token = 'your token here'
+pageID = 'your page ID here'
 msg = ''
 
 
@@ -48,9 +48,14 @@ def postingdaily():
     log(f'\nfacebook response : \n{fb_post.json()}\n --------')
 
 
+
 # # schedule.every(24).hours.do(postingdaily)
 # schedule.every().day.at("12:17").do(postingdaily)
-postingdaily()
+
 # while True:
 #     schedule.run_pending()
 #     time.sleep(10)
+
+postingdaily() #I only kept this function because the
+#server I hosted this script on had their own schedule system to minimize cpu usage 
+#basically I was free plan
