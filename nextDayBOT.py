@@ -13,8 +13,8 @@ URL = 'https://api.imgflip.com/caption_image'
 d1 = datetime.date.today() + datetime.timedelta(days=1)
 d2 = d1.strftime("%a %d %B")
 params = {
-    'username': '065AH',
-    'password': '0passBOToto',
+    'username': '',
+    'password': '',
     'template_id': '25901141',
     'font': 'courier',
     'text0': f'tomorrow is {d2}',
